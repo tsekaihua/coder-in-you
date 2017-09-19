@@ -1,0 +1,32 @@
+@import
+url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+.my-form{
+font-family: "Lato";
+max-width: 400px;
+padding: 10px;
+margin: auto;
+border: 1px solid black;
+}
+/*1. add margin spacing for top & bottom: 20px */
+.my-form-group{
+margin: 20px auto;
+}
+/*This selector refers to ALL <input> */
+input[type]{
+-webkit-appearance: none;/*removes browser override style on mac*/
+/*2. set the width to fill container: 100% */
+/*3. increase font size to: 1.5rem */
+/*4. increase height to: 2rem */
+width: 100%;
+font-size: 1.5rem;
+height: 2rem;
+}
+/*Select multiple selectors with a comma , */
+/*input[type=text] selects <input type="text"> */
+input[type=text],
+input[type=email]{
+/*5. remove existing border to: none*/
+/*6. create an underline effect by setting a new border-bottom to: 1px solid black*/
+border: none;
+border-bottom: 1px solid black;
+}
