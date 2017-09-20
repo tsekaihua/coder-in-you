@@ -12,7 +12,7 @@
 var student_1 = "Tse";
 var student_2 = "Kai";
 
-var welcome_msg = "Hai. We are friends.." +  student_1 + " , " + student_2
+var welcome_msg = "Hai. We are friends.." +  student_1 + " , " + student_2;
 console.log(welcome_msg)
 
 
