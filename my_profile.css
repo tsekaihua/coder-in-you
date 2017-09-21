@@ -1,35 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .horizontal-line {
-    /* width: 80%;
-    border: 3px dashed orangered;
-    margin: 25px 35px 25px; */
-
     border: 0;
     height: 3px;
     background: #333;
-    background-image: linear-gradient(to right, black, orangered, black);  
+    background-image: linear-gradient(to right, grey, black, grey);  
 }
 
 .my-body{
-    background-image: url('https://coderinyou.github.io/images/background.jpg');
+    background-image: url('https://anqjkg.bn1303.livefilestore.com/y4mDWQ4N0v35gDh3YNAwnx1KiCUDpuCtVxueAFVzGx0nUcxe1tVMdo9FHTTLcNM7_BhjFi--7c4TJRNv86V7K5CAXZHkUxr7xz5CFN2dlkAorVABoQFYZQztKdsAw62veG4d2mM6uIrtGrAPLvrMJLiKhe3VLlDYDcK0IdqE4THGiYHUP6bdkhfGplNHOAnTEzT7mww-O-hBiqzQuQFrKiyHA?width=4160&height=3120&cropmode=none');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 10% 20%;
+    background-position: 50% 20%;
 }
 
 .my-text{
-    color: white;
+    color: black;
     font-family: "Open Sans";
-    /* font-size: 12px; */
 }
 
 .my-box{
     background-color: rgba(185, 184, 184, 0.62);
-    opacity: 0.7;
+    opacity: 0.9;
     border-radius: 5%;
-    /* margin: 10%; */
 }
 
 .my-margin{
